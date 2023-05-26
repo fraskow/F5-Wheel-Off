@@ -35,6 +35,7 @@ El objetivo de la wheel of .... es crear un sistema de selección de sacrificios
     - CSS/SASS
     - GIT/GITHUB
     - JIRA
+    - Javascript
     
  ### Contributors
     - Francisco
