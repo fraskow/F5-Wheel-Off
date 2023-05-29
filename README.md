@@ -21,7 +21,6 @@ El objetivo de la wheel of .... es crear un sistema de selección de sacrificios
 
 ### Extras:
 
-    Utilizar Vite o Parcel
     Utilizar SASS
     Utilizar Typescript
     Sección de resultados
