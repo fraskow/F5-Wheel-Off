@@ -32,13 +32,16 @@ main #inner-box {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-main #inner-box p {
+main p {
   margin-top: 12%;
   text-align: center;
 }
-main #inner-box .logo-spin {
+main .logo-white {
+  border-radius: 20%;
+}
+main #logo-spin {
   width: 310px;
-  border-radius: 20px;
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=lottery.css.map */
