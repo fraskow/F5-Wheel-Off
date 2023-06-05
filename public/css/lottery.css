@@ -31,5 +31,8 @@ main #inner-box p {
   margin-top: 12%;
   text-align: center;
 }
+main #inner-box .logo {
+  border-radius: 20px;
+}
 
 /*# sourceMappingURL=lottery.css.map */
