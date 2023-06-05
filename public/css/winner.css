@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main #outer-box {
+  background: linear-gradient(180deg, #FDBF00 0%, rgba(158, 141, 89, 0.6) 100%);
+  position: relative;
+  width: 310px;
+  height: 174px;
+  border-radius: 20px;
+}
+
+main #inner-box {
+  position: absolute;
+  background: white;
+  width: 225px;
+  height: 70px;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main #inner-box p {
+  margin-top: 12%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=winner.css.map */
