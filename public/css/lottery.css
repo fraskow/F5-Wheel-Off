@@ -36,10 +36,10 @@ main p {
   margin-top: 12%;
   text-align: center;
 }
-main .logo-white {
+main .logo-spin {
   border-radius: 20%;
 }
-main #logo-spin {
+main #logo-white {
   width: 310px;
   padding-top: 50px;
 }
