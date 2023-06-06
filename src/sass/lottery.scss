@@ -1,13 +1,5 @@
-@import '/public/css/resetstyles.css'; 
-
-@media (max-width: 480px) {
-    body {
-        margin-left: 7%;
-    }
-}
-
 body{
-    background: linear-gradient(180deg, #EE9757 0%, #EE9757 46.88%, rgba(232, 175, 133, 0) 100%);
+    background: linear-gradient(180deg, #EE9757 0.52%, #EE9757 50%, rgba(238, 151, 87, 0) 100%);
     background-repeat: no-repeat;
 }
   
@@ -23,7 +15,7 @@ main{
         width: 310px;
         height: 174px;
         border-radius: 20px;
-        
+        margin-top: 20%;
     }
 
     #inner-box{
@@ -34,8 +26,7 @@ main{
         border-radius: 20px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
-    
+        transform: translate(-50%, -50%);  
     }
     
     p{
@@ -52,5 +43,3 @@ main{
         padding-top: 50px;
     }
 }
-
-

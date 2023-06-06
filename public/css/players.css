@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #start {
+  background-color: #2CC17A;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: 400;
+}
+main #reset {
+  background-color: lightcoral;
+  border-radius: 20px;
+  padding: 10px;
+}
+main #add {
+  width: 300px;
+  height: auto;
+  padding: 5px;
+}
+main #add #text-add {
+  border-radius: 20px;
+  text-align: center;
+}
+main #add #add-button {
+  border-radius: 20px;
+  width: 33%;
+  text-align: center;
+  background-color: #2CC17A;
+}
+main .container {
+  margin: 5px;
+  position: relative;
+  border-radius: 20px;
+  background-color: rgb(170, 170, 170);
+  border: 2px solid black;
+}
+main .container #winner, main .container #gamer {
+  width: 300px;
+  height: auto;
+  padding: 5px;
+}
+
+body {
+  background: linear-gradient(180deg, #EE9757 0%, #EE9757 46.88%, rgba(232, 175, 133, 0) 100%);
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=players.css.map */
