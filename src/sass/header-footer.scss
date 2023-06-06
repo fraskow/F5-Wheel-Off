@@ -1,18 +1,12 @@
-body {
-    position: relative;
-    margin: 0;
-    background: linear-gradient(180deg, #EE9757 0.52%, #EE9757 50%, rgba(238, 151, 87, 0) 100%);
-    background-repeat: no-repeat;
-
-    header {
-        position: relative;
-        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.33) 100%);
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
-
+header {
+    display: flex;
+    position: fixed;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.33) 100%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    
     .logo {
         width: 62px;
         height: 59px;
@@ -24,9 +18,8 @@ body {
     .title {
         position: relative;
         font-size: 24px;
-        border-radius: 20px;
         background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
-        padding: 10px 20px;
+        padding: 10px;
         text-align: center;
         font-size: 20px;
         line-height: 23px;
@@ -39,22 +32,30 @@ body {
     }
 }
 
+
+
 footer {
-    position: relative;
+
+    
+    position: fixed;
+    bottom: 0;
     height: 67px;
-    left: 0px;
-    top: 739px;
+    width: 100%;
     background: linear-gradient(180deg, #8C8989 0%, rgba(140, 137, 137, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 
     .copyright {
         box-sizing: border-box;
-        position: absolute;
         width: 183px;
         height: 32px;
         left: 102px;
         top: 30px;
         text-align: center;
-        padding-top: 7px;
+        padding-top: 10px;
         font-size: small;
         background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
         border: 1px solid #000000;

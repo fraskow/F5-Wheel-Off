@@ -1,55 +1,59 @@
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+body {
+    background: linear-gradient(180deg, #EE9757 0%, #EE9757 46.88%, rgba(232, 175, 133, 0) 100%);
+    background-repeat: no-repeat;
 
-    #start{
-        background-color: #2CC17A;
-        border-radius: 20px;
-        padding: 10px;
-        font-weight: 400;
-    }
-    #reset{
-        background-color: lightcoral;
-        border-radius: 20px;
-        padding: 10px;
-    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-    #add{
-        width: 300px;
-        height: auto;
-        padding: 5px;
-        #text-add{
-            border-radius: 20px;
-            text-align: center;
-        }
-        #add-button{
-            border-radius: 20px;
-            width: 33%;
-            text-align: center;
+        #start {
             background-color: #2CC17A;
+            border-radius: 20px;
+            padding: 10px;
+            font-weight: 400;
         }
-    }
 
-    .container{
-        margin: 5px;
-        position: relative;
-        border-radius: 20px;
-        background-color: rgb(170, 170, 170);
-        border: 2px solid black;
-        #winner, #gamer{
+        #reset {
+            background-color: lightcoral;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        #add {
             width: 300px;
             height: auto;
             padding: 5px;
+
+            #text-add {
+                border-radius: 20px;
+                text-align: center;
+            }
+
+            #add-button {
+                border-radius: 20px;
+                width: 33%;
+                text-align: center;
+                background-color: #2CC17A;
+            }
         }
 
+        .container {
+            margin: 5px;
+            position: relative;
+            border-radius: 20px;
+            background-color: rgb(170, 170, 170);
+            border: 2px solid black;
 
+            #winner,
+            #gamer {
+                width: 300px;
+                height: auto;
+                padding: 5px;
+            }
+
+        }
 
     }
-
-}
-body{
-    background: linear-gradient(180deg, #EE9757 0%, #EE9757 46.88%, rgba(232, 175, 133, 0) 100%);
-    background-repeat: no-repeat;
 }
