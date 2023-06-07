@@ -1,3 +1,8 @@
+body {
+  background: linear-gradient(180deg, #EE9757 0.52%, #EE9757 50%, rgba(238, 151, 87, 0) 100%);
+  background-repeat: no-repeat;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -10,6 +15,7 @@ main #outer-box {
   width: 310px;
   height: 174px;
   border-radius: 20px;
+  margin-top: 20%;
 }
 main #inner-box {
   position: absolute;
