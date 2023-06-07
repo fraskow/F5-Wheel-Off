@@ -4,52 +4,55 @@ body {
   font-family: "Courier Prime", monospace;
   font-weight: 700;
 }
-body main {
+
+main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-body main .container {
-  margin-top: 12%;
+main .container {
   position: relative;
-  width: 33%;
+  margin-top: 30%;
+  width: 70%;
   border-radius: 20px;
-  background-color: rgb(170, 170, 170);
-  border: 2px solid black;
+  background: #EDEDED;
+  border: 1px solid #000000;
 }
-body main .container .norm-initial {
+main .container .norm-initial {
   text-align: center;
-  margin: 15px 5px 0 5px;
   font-weight: 700px;
   color: #000000;
 }
-body main .container .rules-list {
+main .container .rules-list {
   list-style: none;
 }
-body main .container .rules-list li {
+main .container .rules-list li {
   display: flex;
   align-items: center;
   line-height: 22px;
-  width: 400;
-  margin-right: 15px;
+  width: 100%;
   color: #000000;
 }
-body main .container .rules-list i {
+main .container .rules-list i {
   margin-right: 10px;
 }
-body main .contain-button {
+main .contain-button {
   margin-top: 5%;
 }
-body main .contain-button .start-button {
+main .contain-button .start-button {
   position: relative;
   padding: 15px;
   background: #2CC17A;
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  border: solid 1px #000000;
 }
-body main .contain-button .link-start {
+main .contain-button .start-button:hover {
+  background: #FFFFFF;
+}
+main .contain-button .link-start {
   text-decoration: none;
   font-weight: 700;
   color: #000000;

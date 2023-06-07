@@ -14,12 +14,22 @@ body {
             border-radius: 20px;
             padding: 10px;
             font-weight: 400;
+            border: 1px solid #000000;
+
+            &:hover {
+                    background: #FFFFFF;
+                }
         }
 
         #reset {
             background-color: lightcoral;
             border-radius: 20px;
             padding: 10px;
+            border: 1px solid #000000;
+
+            &:hover {
+                    background: #FFFFFF;
+                }
         }
 
         #add {
@@ -38,6 +48,11 @@ body {
                 width: 33%;
                 text-align: center;
                 background-color: #2CC17A;
+                border: 1px solid #000000;
+
+                &:hover {
+                        background: #FFFFFF;
+                    }
             }
         }
 

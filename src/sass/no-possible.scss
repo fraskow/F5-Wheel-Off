@@ -1,10 +1,9 @@
-body{
-    background: linear-gradient(180deg, #EE9757 0.52%, #EE9757 50%, rgba(238, 151, 87, 0) 100%);
+body {
+    background: linear-gradient(180deg, #EE9757 0%, #EE9757 46.88%, rgba(232, 175, 133, 0) 100%);
     background-repeat: no-repeat;
     font-family: 'Courier Prime', monospace;
     font-weight: 700;
 }
-
 main {
     display: flex;
     justify-content: center;
@@ -45,7 +44,13 @@ main {
             border-radius: 20px;
             border: none;
             cursor: pointer;
+            border: 1px solid #000000;
+
+            &:hover {
+                    background: #FFFFFF;
+                }
         }
+
 
         .link-start {
             text-decoration: none;
