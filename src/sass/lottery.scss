@@ -41,5 +41,16 @@ main{
     #logo-white{
         width: 310px;
         padding-top: 50px;
+        animation: rotar 5s linear infinite;
+    }
+
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
     }
 }
