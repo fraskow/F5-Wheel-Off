@@ -1,6 +1,8 @@
 body {
   background: linear-gradient(180deg, #EE9757 0%, #EE9757 46.88%, rgba(232, 175, 133, 0) 100%);
   background-repeat: no-repeat;
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
 }
 body main {
   display: flex;
