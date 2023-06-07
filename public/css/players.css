@@ -13,11 +13,19 @@ body main #start {
   border-radius: 20px;
   padding: 10px;
   font-weight: 400;
+  border: 1px solid #000000;
+}
+body main #start:hover {
+  background: #FFFFFF;
 }
 body main #reset {
   background-color: lightcoral;
   border-radius: 20px;
   padding: 10px;
+  border: 1px solid #000000;
+}
+body main #reset:hover {
+  background: #FFFFFF;
 }
 body main #add {
   width: 300px;
@@ -33,6 +41,10 @@ body main #add #add-button {
   width: 33%;
   text-align: center;
   background-color: #2CC17A;
+  border: 1px solid #000000;
+}
+body main #add #add-button:hover {
+  background: #FFFFFF;
 }
 body main .container {
   margin: 5px;

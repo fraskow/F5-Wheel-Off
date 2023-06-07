@@ -37,7 +37,12 @@ main {
             background: #2CC17A;
             border-radius: 20px;
             border: none;
+            border: solid 1px #000000;
             cursor: pointer;
+
+            &:hover {
+                    background: #FFFFFF;
+                }
         }
 
         .link-start {

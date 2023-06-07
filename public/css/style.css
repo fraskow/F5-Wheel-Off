@@ -48,6 +48,10 @@ body main .contain-button .start-button {
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  border: solid 1px #000000;
+}
+body main .contain-button .start-button:hover {
+  background: #FFFFFF;
 }
 body main .contain-button .link-start {
   text-decoration: none;

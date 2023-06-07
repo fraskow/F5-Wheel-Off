@@ -34,7 +34,11 @@ main .contain-button .start-button {
   background: #2CC17A;
   border-radius: 20px;
   border: none;
+  border: solid 1px #000000;
   cursor: pointer;
+}
+main .contain-button .start-button:hover {
+  background: #FFFFFF;
 }
 main .contain-button .link-start {
   text-decoration: none;
