@@ -11,14 +11,14 @@ TODO:	Minima Functinonal
 	Timeout de lottery page
 */
 
-let add = document.getElementById("add-button");
+// let add = document.getElementById("add-button");
 
-add.onclick = function agregarParticipante() {
+// add.onclick = function agregarParticipante() {
 
-	var participante = document.getElementById("inputParticipante").value;
-	var nuevoDiv = document.createElement("div");
-	nuevoDiv.innerHTML = participante;
-	document.getElementById("participantes").appendChild(nuevoDiv);
-	document.getElementById("inputParticipante").value = "";
+// 	var participante = document.getElementById("inputParticipante").value;
+// 	var nuevoDiv = document.createElement("div");
+// 	nuevoDiv.innerHTML = participante;
+// 	document.getElementById("participantes").appendChild(nuevoDiv);
+// 	document.getElementById("inputParticipante").value = "";
 
-}
+// }
