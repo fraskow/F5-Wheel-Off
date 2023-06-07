@@ -25,5 +25,22 @@ main #inner-box p {
   margin-top: 12%;
   text-align: center;
 }
+main .contain-button {
+  margin-top: 5%;
+}
+main .contain-button .start-button {
+  position: relative;
+  padding: 15px;
+  background: #2CC17A;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+main .contain-button .link-start {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Courier Prime";
+}
 
 /*# sourceMappingURL=winner.css.map */
