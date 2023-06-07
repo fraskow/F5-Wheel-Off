@@ -9,7 +9,8 @@ start.onclick=function sortearGanador() {
 		let ganadorDiv = divParticipantes.children[ganadorIndex];
 		divParticipantes.removeChild(ganadorDiv);
 		document.getElementById("winners").appendChild(ganadorDiv);
-		window.location.href = "winner.html"
+		localStorage.setItem("winner", ganadorDiv.innerHTML);
+		window.location.href="lottery.html";
 	}else{
 		window.location.href = "no-possible.html";
 	}
