@@ -50,4 +50,20 @@ body main .container #gamer {
   padding: 5px;
 }
 
+@media (max-width: 480px) {
+  .layout {
+    margin-top: 30%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .layout {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 992px) {
+  .layout {
+    margin-top: 10%;
+  }
+}
+
 /*# sourceMappingURL=players.css.map */
