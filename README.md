@@ -42,7 +42,5 @@ El objetivo de la wheel of .... es crear un sistema de selección de sacrificios
     - Sidi
     - Cristian
     - Josep
-    
-    ![landing-Page]
-https://raw.githubusercontent.com/fraskow/F5-Wheel-Off/blob/main/public/views/index.png
+
  
