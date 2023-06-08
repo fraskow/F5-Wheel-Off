@@ -42,3 +42,9 @@ El objetivo de la wheel of .... es crear un sistema de selección de sacrificios
     - Sidi
     - Cristian
     - Josep
+
+![main prototype](https://github.com/fraskow/F5-Wheel-Off/blob/main/src/images/index.PNG)
+![participants prototype](https://github.com/fraskow/F5-Wheel-Off/blob/main/src/images/participants.PNG)
+![lottery prototype](https://github.com/fraskow/F5-Wheel-Off/blob/main/src/images/lottery.PNG)
+![no-possible prototype](https://github.com/fraskow/F5-Wheel-Off/blob/main/src/images/no-possible.PNG)
+![winner prototype](https://github.com/fraskow/F5-Wheel-Off/blob/main/src/images/winner.PNG)
