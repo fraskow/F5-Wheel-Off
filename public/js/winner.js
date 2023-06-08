@@ -12,4 +12,10 @@ function mostrar() {
   }
   
   mostrar();
+
+  let boton = document.getElementById("volver");
+
+  boton.onclick = function(){
+    window.location.href="gamers.html"
+  }
   

@@ -14,8 +14,7 @@ function agregarParticipante() {
     nuevoDiv.innerHTML = participante;
     document.getElementById("gamers").appendChild(nuevoDiv);
     document.getElementById("text-add").value = "";
-
-    // Guardar la lista actualizada de participantes en el almacenamiento local
+    
     let participantesDiv = document.getElementById("gamers");
     localStorage.setItem("participants", participantesDiv.innerHTML);
   } else {
